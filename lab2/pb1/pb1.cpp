@@ -12,9 +12,7 @@ int main()
     for (i = 0;i < n;i++)
     {
         cin >> x;
-        ok=v.Add(x);
-        if (ok == false)
-            i = n;
+        v.Add(x);
     }
     v.Sort();
     v.Print();
