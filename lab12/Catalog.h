@@ -88,14 +88,5 @@ public:
 		}
 	}
 
-	/*void MedieNote(string nume)
-	{
-		for (auto it = student.begin(); it != student.end(); it++)
-		{
-			if (nume == it->GetNum())
-			{
-				cout << "the average grade of student " << nume << " is:" << it->Medie() << '\n';
-			}
-		}
-	}*/
+	
 };
